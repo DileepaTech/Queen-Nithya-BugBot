@@ -1,0 +1,28 @@
+{ 
+   "name": "NITHYA", 
+   "description": "A Whatsapp md bot built in NodeJs to make experience better", 
+   "logo": "https://telegra.ph/file/e737a6573663dcd99f96c.jpg", 
+   "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "SecktorBot", "Secktor","SecktorMD","theme bot","multi device","baileys","Sam Pandey"], 
+   "success_url": "/", 
+   "stack": "container", 
+ "env": { 
+   
+   "owner name": { 
+     "description": "Put HEROKU APP NAME same as above.", 
+      "required" :false 
+     }, 
+    "THUMB_IMAGE": { 
+     "description": "THUMBNAIL for bot.", 
+      "value": "https://telegra.ph/file/e737a6573663dcd99f96c.jpg" 
+     }, 
+     "Bug": { 
+     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank", 
+      "required" :false 
+     },
+ "formation": { 
+                 "worker": { 
+                         "quantity": 1, 
+                         "size": "basic" 
+                 } 
+         } 
+ }
